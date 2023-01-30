@@ -438,6 +438,7 @@ footer {
   display: flex;
   justify-content: start;
   column-gap: 70px;
+  align-items: baseline;
 }
 .logo--end {
   font-family: "Raleway", sans-serif;
@@ -470,13 +471,11 @@ footer {
 
 .socialmedia-text {
   color: #fff;
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
-  margin-top: 12px;
 }
 
 .footer-socialmedia {
@@ -496,6 +495,53 @@ footer {
 
 .footer-socialmedia-icon {
   fill: #fff;
+}
+.label-newsletter {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+}
+
+.newsletter-form-wrap {
+  display: flex;
+  column-gap: 12px;
+}
+
+.e-mail-input {
+  background-color: var(--footer-background-color);
+  height: 50px;
+  width: 358px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+}
+
+.button-newsletter {
+  width: 200px;
+  height: 50px;
+  background-color: var(--action-color);
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  padding-left: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-send {
+  fill: #fff;
+  margin-left: 24px;
 }
 
 .contact-header_item:hover .contact-icon,
