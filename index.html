@@ -511,6 +511,71 @@
             <use href="images/icons.svg#icon-button-icon"></use>
           </svg>
         </button>
+        <form class="service-form">
+          <h2 class="form_title">Zostaw swoje dane w formularzu poniżej</h2>
+          <label for="clientname" class="input_label">Imie</label>
+          <div class="input_wrap">
+            <svg width="12" height="12" class="form_icon">
+              <use href="images/icons.svg#icon-person-icon"></use>
+            </svg>
+            <input
+              type="text"
+              name="clientname"
+              id="clientname"
+              class="input_box"
+            />
+          </div>
+          <label for="tel-serviceorder" class="input_label">Telefon</label>
+          <div class="input_wrap">
+            <svg width="13" height="13" class="form_icon">
+              <use href="images/icons.svg#icon-tel-icon"></use>
+            </svg>
+            <input
+              type="tel"
+              name="tel-serviceorder"
+              id="tel-serviceorder"
+              class="input_box"
+            />
+          </div>
+          <label for="email-serviceorder" class="input_label">Email</label>
+          <div class="input_wrap">
+            <svg width="17" height="15" class="form_icon mail_icon">
+              <use href="images/icons.svg#icon-email-icon"></use>
+            </svg>
+            <input
+              type="email"
+              name="email-serviceorder"
+              id="email-serviceorder"
+              class="input_box"
+            />
+          </div>
+          <label for="comment-serviceorder" class="input_label"
+            >Komentarz</label
+          >
+          <textarea
+            id="comment-serviceorder"
+            name="comment-serviceorder"
+            placeholder="Wprowadź tekst"
+            class="form_textarea"
+          ></textarea>
+          <label class="checkbox_label">
+            <input
+              type="checkbox"
+              name="regulations-and-privacy-policy"
+              value="accepted"
+              class="checkbox_box"
+            />
+            <span class="checkmark">
+              <svg width="16" height="15" class="accept_icon">
+                <use href="images/icons.svg#icon-mark-icon"></use>
+              </svg>
+            </span>
+            Oświadczam iż akceptuję
+            <a href="/" class="checbox_string">Regulamin</a> i
+            <a href="/" class="checbox_string">Politykę Prywatności.</a></label
+          >
+          <button type="submit" class="button-main">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
