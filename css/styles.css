@@ -690,15 +690,15 @@ footer {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.input_wrap:focus > .input_box,
-.input_wrap:hover > .input_box,
+.input_box:focus,
+.input_box:hover,
 .form_textarea:focus,
 .form_textarea:hover {
   border-color: var(--action-color);
 }
 
-.input_wrap:focus > .form_icon,
-.input_wrap:hover > .form_icon {
+.input_box:focus + .form_icon,
+.input_box:hover + .form_icon {
   fill: var(--action-color);
 }
 
