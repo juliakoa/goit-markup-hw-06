@@ -101,6 +101,10 @@ header {
   column-gap: 50px;
 }
 
+.contact-icon {
+  fill: var(--description-color);
+}
+
 .contact-header_item {
   font-weight: 500;
   font-size: 14px;
@@ -452,7 +456,10 @@ footer {
 }
 .contact-footer {
   margin-top: 20px;
-  row-gap: 9px;
+}
+
+.contact-footer_wrap > li:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contact-footer_address {
