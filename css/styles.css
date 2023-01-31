@@ -533,7 +533,7 @@ footer {
 .e-mail-input::placeholder {
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #d2d2d2;
 }
 
 .button-newsletter {
