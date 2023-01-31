@@ -702,6 +702,15 @@ footer {
   fill: var(--action-color);
 }
 
+.input_box:not(:placeholder-shown),
+.form_textarea:not(:placeholder-shown) {
+  border-color: var(--action-color);
+}
+
+.input_box:not(:placeholder-shown) + .form_icon {
+  fill: var(--action-color);
+}
+
 .checkbox_label {
   display: flex;
   align-items: center;
