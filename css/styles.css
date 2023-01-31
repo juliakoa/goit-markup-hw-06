@@ -703,7 +703,8 @@ footer {
 }
 
 .checkbox_label {
-  display: block;
+  display: flex;
+  align-items: center;
   position: relative;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -724,16 +725,20 @@ footer {
 }
 
 .checkmark {
+  display: inline-block;
+  position: relative;
   border: 2px solid rgba(33, 33, 33, 1);
   border-radius: 2px;
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  padding-top: 3px;
 }
 .accept_icon {
   opacity: 0;
-  margin-left: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .checkbox_label .checkbox_box:checked ~ .checkmark {
