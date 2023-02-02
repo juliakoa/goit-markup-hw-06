@@ -533,7 +533,7 @@ footer {
 .e-mail-input::placeholder {
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: #d2d2d2;
+  color: #f8f8f8;
 }
 
 .button-newsletter {
@@ -662,6 +662,7 @@ footer {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
+  outline: none;
 }
 
 .form_icon {
@@ -681,6 +682,7 @@ footer {
   resize: none;
   padding-top: 12px;
   padding-left: 16px;
+  outline: none;
 }
 
 .form_textarea::placeholder {
